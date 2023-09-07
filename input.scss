@@ -1,0 +1,159 @@
+html{
+    font-family: 'Inter', sans-serif;
+}
+p{
+    font-size: 62.5%;
+}
+@mixin flex($direction, $justify, $align){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+header{
+    min-width: 20rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem 1.25rem;
+    background-color: #faf8f6;
+    .nav-bar-container{
+        width: 100%;
+        height: auto;
+        @include flex(row,space-between,center);
+        .logo-container{
+            width: 100%;
+            height: auto;
+            p{
+                font-size:1.563rem;
+                color: #3a86ff;
+                font-weight: 700;
+            }
+        }
+    }
+    .hero-container{
+        width: 100%;
+        height: auto;
+        .hero-image{
+            width: auto;
+            height: auto;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .hero-info-container{
+            width: 100%;
+            height: auto;
+            h1{
+                font-size: 1.563rem;
+            }
+            p{
+                font-size: 0.875rem;
+                text-align: justify;
+                line-height: 1.25rem;
+            }
+            .button-container{
+                list-style: none;
+                background-color: #00acee;
+                @include flex(row,center,center);
+                padding: 5px 0;
+                border-radius: 4px;
+                li{
+                    @include flex(row,center,center );
+                    width: 100%;
+                    height: auto;
+                    padding: 10px 0;
+                    gap: 5px;
+
+                i{
+                    width: auto;
+                    height: auto;
+                }
+                a{
+                    width: auto;
+                    height: auto;
+                    font: .875rem;
+                    text-align: center;
+                    text-decoration: none;
+                    color: #fff;
+                    }
+                }
+            }
+            .learn-more-container{
+                width: 100%;
+                height: auto;
+                padding: 0;
+                list-style: none;
+                @include flex(row,center,center );
+                li{
+                    @include flex(row,center,center );
+                    gap: 5px;
+                    a{
+                        text-decoration: none;
+                        color: #005f73;
+                        font-weight: 700;
+                    }
+                    
+                }
+            }
+            .hero-users-container{
+                width: 100%;
+                height: auto;
+                .users-container{
+                    width: 100%;
+                    height: auto;
+                    @include flex(row-reverse,flex-start,center);
+                    padding: 20px 0;
+                    margin: 0;
+
+
+                    img{
+                        
+                        position: relative;
+                    }
+                    img:nth-child(1){
+                        z-index: 8;
+                        left: -40px;
+                    }
+                    img:nth-child(2){
+                        z-index: 7;
+                        left: -20px;
+                    }
+                    img:nth-child(3){
+                        z-index: 6;
+                        left: 3px;
+                    }
+                    img:nth-child(4){
+                        z-index: 5;
+                        left: 25px;
+                    }
+                    img:nth-child(5){
+                        z-index: 4;
+                        left: 47px;
+                    }
+                    img:nth-child(6){
+                        z-index: 3;
+                        left: 65px;
+                    }
+                    img:nth-child(7){
+                        z-index: 2;
+                        left: 80px;
+                    }
+                    img:nth-child(8){
+                        z-index: 1;
+                        left: 100px;
+                    }
+                }
+                .users-join{
+                    width: 100%;
+                    width: auto;
+                    p span{
+                        color: #005f73;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

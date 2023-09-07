@@ -1,3 +1,169 @@
+html {
+  font-family: "Inter", sans-serif;
+}
 
+p {
+  font-size: 62.5%;
+}
+
+header {
+  min-width: 20rem;
+  width: 100%;
+  height: auto;
+  padding: 1rem 1.25rem;
+  background-color: #faf8f6;
+}
+header .nav-bar-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav-bar-container .logo-container {
+  width: 100%;
+  height: auto;
+}
+header .nav-bar-container .logo-container p {
+  font-size: 1.563rem;
+  color: #3a86ff;
+  font-weight: 700;
+}
+header .hero-container {
+  width: 100%;
+  height: auto;
+}
+header .hero-container .hero-image {
+  width: auto;
+  height: auto;
+}
+header .hero-container .hero-image img {
+  width: 100%;
+  height: auto;
+}
+header .hero-container .hero-info-container {
+  width: 100%;
+  height: auto;
+}
+header .hero-container .hero-info-container h1 {
+  font-size: 1.563rem;
+}
+header .hero-container .hero-info-container p {
+  font-size: 0.875rem;
+  text-align: justify;
+  line-height: 1.25rem;
+}
+header .hero-container .hero-info-container .button-container {
+  list-style: none;
+  background-color: #00acee;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  border-radius: 4px;
+}
+header .hero-container .hero-info-container .button-container li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  gap: 5px;
+}
+header .hero-container .hero-info-container .button-container li i {
+  width: auto;
+  height: auto;
+}
+header .hero-container .hero-info-container .button-container li a {
+  width: auto;
+  height: auto;
+  font: 0.875rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+header .hero-container .hero-info-container .learn-more-container {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header .hero-container .hero-info-container .learn-more-container li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+header .hero-container .hero-info-container .learn-more-container li a {
+  text-decoration: none;
+  color: #005f73;
+  font-weight: 700;
+}
+header .hero-container .hero-info-container .hero-users-container {
+  width: 100%;
+  height: auto;
+}
+header .hero-container .hero-info-container .hero-users-container .users-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+  margin: 0;
+}
+header .hero-container .hero-info-container .hero-users-container .users-container img {
+  position: relative;
+}
+header .hero-container .hero-info-container .hero-users-container .users-container img:nth-child(1) {
+  z-index: 8;
+  left: -40px;
+}
+header .hero-container .hero-info-container .hero-users-container .users-container img:nth-child(2) {
+  z-index: 7;
+  left: -20px;
+}
+header .hero-container .hero-info-container .hero-users-container .users-container img:nth-child(3) {
+  z-index: 6;
+  left: 3px;
+}
+header .hero-container .hero-info-container .hero-users-container .users-container img:nth-child(4) {
+  z-index: 5;
+  left: 25px;
+}
+header .hero-container .hero-info-container .hero-users-container .users-container img:nth-child(5) {
+  z-index: 4;
+  left: 47px;
+}
+header .hero-container .hero-info-container .hero-users-container .users-container img:nth-child(6) {
+  z-index: 3;
+  left: 65px;
+}
+header .hero-container .hero-info-container .hero-users-container .users-container img:nth-child(7) {
+  z-index: 2;
+  left: 80px;
+}
+header .hero-container .hero-info-container .hero-users-container .users-container img:nth-child(8) {
+  z-index: 1;
+  left: 100px;
+}
+header .hero-container .hero-info-container .hero-users-container .users-join {
+  width: 100%;
+  width: auto;
+}
+header .hero-container .hero-info-container .hero-users-container .users-join p span {
+  color: #005f73;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=output.css.map */
