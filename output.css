@@ -31,8 +31,14 @@ main .features-tweet-container .cards-features h2, main .features-tweet-containe
   margin: 0;
 }
 main .features-tweet-container .cards-features .image-container-cards {
+  width: auto;
+  height: auto;
   padding: 0.625rem 0.938rem;
   margin: 0;
+}
+main .features-tweet-container .cards-features .image-container-cards img {
+  width: 15vw;
+  height: auto;
 }
 main .features-tweet-container .cards-features h2 {
   font-weight: bold;

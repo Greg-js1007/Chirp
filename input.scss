@@ -31,8 +31,15 @@ main{
                 margin: 0;
             }
             .image-container-cards{
+                width: auto;
+                height: auto;
                 padding:0.625rem 0.938rem;
                 margin: 0;
+
+                img{
+                    width: 15vw;
+                    height: auto;
+                }
             }
             h2{
                 font-weight: bold;
