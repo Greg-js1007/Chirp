@@ -1,0 +1,36 @@
+main{
+    width: 100%;
+    height: auto;
+    min-width: 120px;
+
+    .subtitle-container-main{
+        width: auto;
+        height: auto;
+        padding: 0.938rem;
+        h2{
+            font-size: 1.563rem;
+            margin: 0;
+        }
+    }
+    .features-tweet-container{
+        padding: 0.938rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+
+        .cards-features{
+            width: 100%;
+            height: auto;
+            border: 1px solid #afadad;
+            padding-bottom: 0.938rem;
+            border-radius: 0.375rem;
+
+            .image-container-cards, h2, p{
+                padding:0.469rem 0.938rem;
+                margin: 0;
+            }
+        }
+    
+    }
+    
+}
