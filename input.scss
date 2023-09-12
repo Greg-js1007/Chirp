@@ -10,6 +10,7 @@ main{
         h2{
             font-size: 1.75rem;
             margin: 0;
+            font-weight: bold;
         }
     }
     .features-tweet-container{
@@ -25,9 +26,19 @@ main{
             padding-bottom: 0.938rem;
             border-radius: 0.375rem;
 
-            .image-container-cards, h2, p{
+            h2, p{
                 padding:0.469rem 0.938rem;
                 margin: 0;
+            }
+            .image-container-cards{
+                padding:0.625rem 0.938rem;
+                margin: 0;
+            }
+            h2{
+                font-weight: bold;
+            }
+            p{
+                color: #616060;
             }
         }
     
