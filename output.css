@@ -166,4 +166,53 @@ header .hero-container .hero-info-container .hero-users-container .users-join p 
   font-weight: bold;
 }
 
+main {
+  width: 100%;
+  height: auto;
+  min-width: 120px;
+}
+main .subtitle-container-main {
+  width: auto;
+  height: auto;
+  padding: 0.938rem;
+}
+main .subtitle-container-main h2 {
+  font-size: 1.75rem;
+  margin: 0;
+  font-weight: bold;
+}
+main .features-tweet-container {
+  padding: 0.938rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+main .features-tweet-container .cards-features {
+  width: 100%;
+  height: auto;
+  border: 1px solid #afadad;
+  padding-bottom: 0.938rem;
+  border-radius: 0.375rem;
+}
+main .features-tweet-container .cards-features h2, main .features-tweet-container .cards-features p {
+  padding: 0.469rem 0.938rem;
+  margin: 0;
+}
+main .features-tweet-container .cards-features .image-container-cards {
+  width: auto;
+  height: auto;
+  padding: 0.625rem 0.938rem;
+  margin: 0;
+}
+main .features-tweet-container .cards-features .image-container-cards img {
+  width: 15vw;
+  height: auto;
+}
+main .features-tweet-container .cards-features h2 {
+  font-weight: bold;
+}
+main .features-tweet-container .cards-features p {
+  color: #616060;
+}
+
 /*# sourceMappingURL=output.css.map */
