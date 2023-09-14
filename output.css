@@ -186,6 +186,8 @@ main .features-tweet-container {
   padding: 0.938rem;
   display: flex;
   flex-direction: column;
+  justify-content: normal;
+  align-items: normal;
   gap: 1.25rem;
 }
 main .features-tweet-container .cards-features {
@@ -216,6 +218,18 @@ main .features-tweet-container .cards-features p {
   color: #616060;
   font-size: 0.875rem;
   line-height: 1.5rem;
+}
+
+.customers-say-container {
+  width: 100%;
+  height: auto;
+  padding: 0.938rem;
+  min-width: 20rem;
+  background-color: #caf0f8;
+}
+.customers-say-container .customers-say-subtitle h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=output.css.map */

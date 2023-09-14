@@ -175,8 +175,7 @@ main{
     }
     .features-tweet-container{
         padding: 0.938rem;
-        display: flex;
-        flex-direction: column;
+        @include flex(column,normal,normal);
         gap: 1.25rem;
 
         .cards-features{
@@ -213,5 +212,18 @@ main{
     
     }
     
+}
+.customers-say-container{
+    width: 100%;
+    height: auto;
+    padding: 0.938rem;
+    min-width: 20rem;
+    background-color: #caf0f8;
 
+    .customers-say-subtitle{
+        h2{
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+    }
 }
