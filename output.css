@@ -231,5 +231,79 @@ main .features-tweet-container .cards-features p {
   font-size: 1.75rem;
   font-weight: 700;
 }
+.customers-say-container .customers-say-cards-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards {
+  border: 1px solid transparent;
+  padding-bottom: 0.938rem;
+  border-radius: 0.375rem;
+  background-color: #fff;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-say-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-say-header figure {
+  margin: 0;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-say-header .customers-user-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 5px;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-say-header .customers-user-info .users-name p {
+  padding: 2px;
+  margin: 0;
+  font-size: 0.75rem;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-say-header .customers-user-info .users-name P:first-child {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-users-text {
+  padding: 0 1.375rem;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-users-text p {
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 25px;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-footer-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1.25rem;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-footer-container p {
+  font-size: 0.75rem;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-footer-container figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  gap: 5px;
+}
+.customers-say-container .customers-say-cards-container .customers-say-cards .customers-footer-container figure img {
+  width: 100%;
+  height: 4vh;
+}
 
 /*# sourceMappingURL=output.css.map */
