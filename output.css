@@ -306,4 +306,17 @@ main .features-tweet-container .cards-features p {
   height: 4vh;
 }
 
+.price-plan-container {
+  width: 100%;
+  height: auto;
+  padding: 0.938rem;
+}
+.price-plan-container .info-price-plan {
+  text-align: center;
+}
+.price-plan-container .info-price-plan h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=output.css.map */

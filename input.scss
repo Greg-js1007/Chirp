@@ -295,3 +295,15 @@ main{
         }
     }
 }
+.price-plan-container{
+    width: 100%;
+    height: auto;
+    padding: .938rem;
+    .info-price-plan{
+        text-align: center;
+        h2{
+            font-size: 1.75rem;
+            font-weight: bold;
+        }
+    }
+}
