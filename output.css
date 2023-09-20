@@ -331,6 +331,10 @@ main .features-tweet-container .cards-features p {
   padding: 1.25rem;
   margin: 0;
 }
+.price-plan-container .price-plan-card .monthly-price {
+  border-bottom: 1px solid #afadad;
+  padding-bottom: 10px;
+}
 .price-plan-container .price-plan-card .monthly-price p:first-child {
   font-size: 1.125rem;
   color: #616060;
@@ -355,6 +359,7 @@ main .features-tweet-container .cards-features p {
   justify-content: center;
   align-items: center;
   padding: 0.625rem 0;
+  border-bottom: 1px solid #afadad;
 }
 .price-plan-container .price-plan-card .pricing-features-container .pricing-features {
   width: 100%;

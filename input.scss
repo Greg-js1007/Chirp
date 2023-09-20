@@ -321,11 +321,14 @@ main{
         margin: 0;
 
         .monthly-price{
+            border-bottom: 1px solid #afadad;
+            padding-bottom: 10px;
             p:first-child{
                 font-size: 1.125rem;
                 color: #616060;
                 margin: 0;
                 padding-top: .625rem;
+                
             }
             p:nth-child(2){
                 font-size: 2.188rem;
@@ -343,6 +346,7 @@ main{
             height: auto;
             @include flex(column,center,center);
             padding: .625rem 0;
+            border-bottom: 1px solid #afadad;
             .pricing-features{
                 width: 100%;
                 height: auto;
