@@ -347,5 +347,35 @@ main .features-tweet-container .cards-features p {
   font-size: 1.125rem;
   font-weight: 400;
 }
+.price-plan-container .price-plan-card .pricing-features-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem 0;
+}
+.price-plan-container .price-plan-card .pricing-features-container .pricing-features {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.price-plan-container .price-plan-card .pricing-features-container .pricing-features figure {
+  width: 8vw;
+  height: auto;
+  margin: 0;
+  padding-right: 0.313rem;
+}
+.price-plan-container .price-plan-card .pricing-features-container .pricing-features figure img {
+  width: 100%;
+  height: auto;
+}
+.price-plan-container .price-plan-card .pricing-features-container .pricing-features p {
+  font-size: 0.875rem;
+}
 
 /*# sourceMappingURL=output.css.map */

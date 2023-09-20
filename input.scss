@@ -337,7 +337,30 @@ main{
                     font-weight: 400;
                 }
             }
-            
+        }
+        .pricing-features-container{
+            width: 100%;
+            height: auto;
+            @include flex(column,center,center);
+            padding: .625rem 0;
+            .pricing-features{
+                width: 100%;
+                height: auto;
+                @include flex(row,flex-start,center);
+                figure{
+                    width: 8vw;
+                    height: auto;
+                    margin: 0;
+                    padding-right: 0.313rem;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                p{
+                    font-size: 0.875rem;
+                }
+            }
         }
     }
 }
