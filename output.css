@@ -382,5 +382,22 @@ main .features-tweet-container .cards-features p {
 .price-plan-container .price-plan-card .pricing-features-container .pricing-features p {
   font-size: 0.875rem;
 }
+.price-plan-container .price-plan-card .button-price-container {
+  background-color: #00acee;
+  border-radius: 6px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+.price-plan-container .price-plan-card .button-price-container li {
+  list-style: none;
+}
+.price-plan-container .price-plan-card .button-price-container li a {
+  color: #fff;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=output.css.map */

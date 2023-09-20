@@ -366,5 +366,19 @@ main{
                 }
             }
         }
+        .button-price-container{
+            background-color: #00acee;
+            border-radius: 6px;
+            padding: .75rem;
+            @include flex(row,center,center);
+            gap: .625rem;
+            li{
+                list-style: none;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
     }
 }
